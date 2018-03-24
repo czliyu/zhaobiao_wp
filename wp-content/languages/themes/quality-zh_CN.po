@@ -1,0 +1,904 @@
+# Translation of Themes - Quality in Chinese (China)
+# This file is distributed under the same license as the Themes - Quality package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-02-27 01:03:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - Quality\n"
+
+#. Description of the plugin/theme
+msgid "Quality is a perfect theme to create a corporate/business website. It boasts 3 beautifully designed page templates, namely Business Page, Full-width, and Blog. Quality is built on the Bootstrap CSS Framework, which makes it fully responsive on all devices, and is translation-ready. To enable the Business template, just create a normal WordPress page and select Business Template as page template. The Business template can be further personalized in the customizer. Each section in the Business Template is designed according to current business requirements, with sections like Banner, Services, Projects etc. You can use this theme for any type of activity. Quality supports famous plugins like Contact Form 7, to create your contact page or any type of forms you might want to add. Quality also gives a clean and appealing look to the WordPress core gallery feature. See Quality's demo at http://webriti.com/quality-free"
+msgstr "Quality是创建企业/企业站点的完美主题。它拥有3个设计精美的页面模板，即商业页面、全宽度和博客。Quality是建立在Bootstrap CSS框架，这使它完全响应所有设备，并可以随时翻译。要启用业务模板，只需创建一个正常的WordPress页面并选择业务模板作为页面模板。业务模板可以在定制器进一步性化。业务模板中的每个区域都是根据当前业务需求设计的，其中包括横幅、服务、项目等区域。您可以将此主题用于任何类型的活动。Quality支持著名的插件，如Contact Form 7，创建您的联系人页面或您可能想要添加的任何类型的表格。Quality还提供了一个干净和迷人的外观WordPress的核心画廊功能。在http://webriti.com/quality-free看质量的演示"
+
+#. #-#-#-#-#  quality.pot (Quality 1.9.7)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: functions/quality-info/sections/free_pro.php:86
+msgid "Quality"
+msgstr "质量"
+
+#: functions/quality-info/sections/free_pro.php:39
+msgid "Multiple Color Schemes"
+msgstr "多色彩方案"
+
+#: theme_setup_data.php:20
+msgid "Our awesome services"
+msgstr "我们的善巧服务"
+
+#: functions.php:112
+msgid "Important Notice: We hope you are enjoying this theme, and we thank you for updating it. Please install our Webriti Companion plugin to manage your Services/Projects sections. Don't worry, nothing is lost, just install the Companion Plugin. Go to the Customizer and install the Webriti Companion plugin from there."
+msgstr "重要提示：我们希望您喜欢这个主题，并感谢您更新它。请安装我们的Webriti Companion插件管理您的服务/项目的区域。别担心，什么也不会丢失，只需安装Companion插件即可。去定制器，然后再安装Webriti Companion插件。"
+
+#: functions/quality-info/sections/github.php:11
+#: functions/quality-info/welcome-screen.php:235
+msgid "Why should you upgrade to PRO?"
+msgstr "您为何升级成PRO版？"
+
+#: functions/quality-info/sections/github.php:89
+msgid "Quality comes with 9 preset color schemes and you can also create your own palettes using the Custom Color Setting in the Customizer."
+msgstr "Quality有9个预置的配色方案，您还可以使用定制器里的自定义颜色设置创建自己的调色板。"
+
+#: functions/quality-info/sections/github.php:71
+msgid "This section is often used to display content like: Latest news, Announcements or Events."
+msgstr "此区域通常用于显示最新新闻、公告和事件类型内容。"
+
+#: functions/quality-info/sections/github.php:43
+msgid "You can create unlimited slides, which can be controlled by the settings found in Appearance > Customize."
+msgstr "您可以创建无限的幻灯片，而通过“外观”>“自定义”里的设置来控制。"
+
+#: functions/quality-info/sections/github.php:34
+msgid "There are beautifully styled navigation/menus in Quality. You can create sub menus and make multi level menus."
+msgstr "在Quality里，有漂亮的导航菜单。您可以创建子菜单并制作多级菜单。"
+
+#: functions/quality-info/sections/github.php:25
+msgid "You can customize your header section and you can add Contact info details and social media icons in the Top Section of the header."
+msgstr "您可以自定义页眉区域，也可以在页眉的顶部添加联系人信息详细信息和社交媒体图标。"
+
+#: functions/quality-info/sections/github.php:17
+msgid "Quality comes with two types of layout: a boxed one and a full-width layout. You can easily switch between them in Appearance > Customize."
+msgstr "Quality有两种布局：一种是盒装的，一种是全宽度的布局。您可以很容易地在“外观”>“自定义”之间切换。"
+
+#: functions/quality-info/sections/getting-started.php:14
+msgid "About the Quality theme"
+msgstr "关于Quality主题"
+
+#: functions/quality-info/sections/free_pro.php:142
+msgid "PRO Support Forum"
+msgstr "PRO支持论坛"
+
+#: functions/quality-info/sections/free_pro.php:130
+msgid "Full-Width layout & Boxed layout"
+msgstr "全宽度布局和盒装布局"
+
+#: functions/quality-info/sections/free_pro.php:129
+msgid "About Us, Services, Portfolios, Blogs with left and right sidebars or full-width, full-width pages, Contact forms and much more."
+msgstr "关于我们，服务，作品集，博客左跟右边栏或全宽度，全宽度页面，联系页面，还有更多页面模版。"
+
+#: functions/quality-info/sections/free_pro.php:127
+msgid "A top header, unlimited sliders, unlimited services, unlimited portfolios, latest news, clients, testimonials, custom widgets"
+msgstr "页眉顶部小工具，无限的幻灯器，无限服务，无限作品集，最新新闻，客户，褒奖，自定义小工具"
+
+#: functions/quality-info/sections/free_pro.php:98
+msgid "Full-Width Layout"
+msgstr "占满宽度布局"
+
+#: functions/quality-info/sections/free_pro.php:92
+msgid "A Slider with 1 static image, 3 Services, 4 Portfolios, Latest News"
+msgstr "带有1个静态图像，3个服务，4个组合，最新消息的幻灯器"
+
+#: functions/quality-info/sections/free_pro.php:68
+msgid "You can use WPML to make your website multilingual."
+msgstr "您可以使用WPML而让您的站点多种语言。"
+
+#: functions/quality-info/sections/free_pro.php:67
+msgid "Supports WPML"
+msgstr "支持WPML"
+
+#: functions/quality-info/sections/free_pro.php:50
+msgid "Show team members and other custom content just by adding it in the WordPress editor."
+msgstr "在WordPress编辑器中添加团队成员和其他自定义内容。"
+
+#: functions/quality-info/sections/free_pro.php:40
+msgid "Enjoy any if the 9 preset color schemes, or create your own, without adding any code."
+msgstr "享受9种预设色彩方案，或在不添加任何代码的情况下创建自定义外皮。"
+
+#: functions/quality-info/sections/free_pro.php:36
+msgid "Display all of your information on a single page: the Parallax effect provides you a captivating scrolling experience."
+msgstr "在一个页面上显示您所有的信息：视差效果为您提供迷人的滚动体验。"
+
+#: functions/quality-info/sections/free_pro.php:31
+msgid "This theme supports the Contact Form 7 plugin. Use it to build your contact form."
+msgstr "此主题支持Contact Form 7插件。使用它来建立您的联系表格。"
+
+#: functions/quality-info/sections/free_pro.php:25
+msgid "Quality supports both a Full-Width and a Boxed layout options. To choose your preference (and switch between them) go to Appearance > Customize."
+msgstr "Quality支持全宽度和盒装布局选项。要选择您的首选项（并在它们之间切换）到“外观”>“自定义”。"
+
+#: functions/quality-info/sections/free_pro.php:22
+msgid "The Quality PRO theme includes various page templates."
+msgstr "Quality PRO主题包含各种页面模板。"
+
+#: functions/customizer/customizer-pro.php:111
+msgid "The PRO version gives you more opportunities to enhance your site and business. An effective online presence requires showcasing a company's products and services in the best possible way. Effectively engage your visitors with a Contact Us enquiry form or through an appealing About Us page, or introducing your Team Members, or your latest portfolio. The PRO version offers all this. Choose Quality PRO today and give your business the best!"
+msgstr "PRO版给您更多的机会来提高您的站点和业务。一个有效的在线存在需要以最好的方式展示一个公司的产品和服务。使用“联系我们”表格有效地让您的访客与您们联系，或者通过一个有吸引力的“关于我们”页面了解您，或者介绍您的团队成员，或者您最新的作品集。PRO版本提供了所有这些。给您的生意最好的选择吧，今天选Quality PRO！"
+
+#: theme_setup_data.php:44 theme_setup_data.php:47 theme_setup_data.php:50
+#: theme_setup_data.php:53
+msgid "Business cards"
+msgstr "名片"
+
+#: theme_setup_data.php:41
+msgid "Most popular of our works."
+msgstr "我们最受欢迎的作品。"
+
+#: theme_setup_data.php:27
+msgid "A great value"
+msgstr "一个很好的价值"
+
+#: theme_setup_data.php:26
+msgid "Friendly Support"
+msgstr "友好的支持"
+
+#: theme_setup_data.php:25
+msgid "Global Customer Base"
+msgstr "全球客户库"
+
+#: theme_setup_data.php:24
+msgid "Beautiful Design"
+msgstr "美丽的设计"
+
+#: search.php:71
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再试。"
+
+#: search.php:68
+msgid "Nothing Found"
+msgstr "未找到"
+
+#: search.php:20
+msgid "Search results for: %s"
+msgstr "%s的搜索结果"
+
+#: functions/customizer/customizer-slider.php:72 theme_setup_data.php:16
+msgid "Create beautiful websites, 100% responsive and easy to customize."
+msgstr "创建美丽的站点，100%响应，易于定制。"
+
+#: functions/customizer/customizer-slider.php:57 theme_setup_data.php:15
+msgid "Welcome to Quality theme"
+msgstr "欢迎使用Quality主题"
+
+#: functions/customizer/customizer-slider.php:42 theme_setup_data.php:14
+msgid "Elegant design"
+msgstr "优雅的设计"
+
+#: functions/customizer/customizer-copyright.php:17
+msgid "<p>©2018 All Rights Reserved - Webriti. Designed and Developed by<a href=\"https://www.webriti.com/\" target=\"_blank\"> Webriti</a></p>"
+msgstr "<p>©2018 <a href=\"https://www.webriti.com/\" target=\"_blank\">Webriti</a> 版权所有。设计和开发于</p>"
+
+#: functions/quality-info/welcome-screen.php:64
+msgid "Get started with Quality"
+msgstr "开始使用Quality"
+
+#: functions/quality-info/welcome-screen.php:63
+msgid "Welcome! Thank you for choosing Webriti's Quality WordPress theme. To take full advantage of the features this theme has to offer visit our %swelcome page%s."
+msgstr "欢迎！感谢您选择Webriti的Quality WordPress主题！为了充分利用该主题里的功能，请访问我们的%s欢迎页面%s。"
+
+#: functions.php:113
+msgid "Go To Customizer"
+msgstr "前往定制器"
+
+#: functions/quality-info/sections/github.php:107
+msgid "Building a website with our custom widgets is very simple. Just place them inside the available sidebar or even in the content."
+msgstr "用我们的自定义小工具构建一个站点是非常简单。只需将它们放在可用的边栏或内容中即可。"
+
+#: functions/quality-info/sections/github.php:98
+msgid "Help Section"
+msgstr "帮助栏"
+
+#: functions/quality-info/sections/github.php:53
+msgid "You can display any number of services on the Homepage, with thousands of Font Awesome icons available. You can also display a set of services on a separate page by using the Service page template."
+msgstr "您可以在主页上显示无数的服务，与成千上万的FontAwesome提供的图标。您还可以通过使用与服务页面模板，在单独的页面上显示一组服务。"
+
+#: functions/quality-info/sections/github.php:24
+msgid "Top Header Section"
+msgstr "页眉顶部设置"
+
+#: functions/quality-info/sections/getting-started.php:79
+msgid "Premium Theme Details"
+msgstr "高级主题详情"
+
+#: functions/quality-info/sections/getting-started.php:69
+msgid "Premium Theme Support"
+msgstr "高级主题支持"
+
+#: functions/quality-info/sections/getting-started.php:66
+msgid "Your feedback is valuable to us"
+msgstr "您的反馈对我们是有价值的。"
+
+#: functions/quality-info/sections/getting-started.php:55
+msgid "PRO Demo"
+msgstr "PRO演示"
+
+#: functions/quality-info/sections/getting-started.php:31
+msgid "Go to the Customizer"
+msgstr "前往定制器"
+
+#: functions/quality-info/sections/getting-started.php:28
+msgid "Install and activate the Webriti Companion plugin to take full advantage of all the features this theme has to offer. Go to Customize and install the Webriti Companion plugin."
+msgstr "安装并激活Webriti Companion插件来充分利用这一主题所提供的所有的功能。去“定制”，然后安装Webriti Companion插件。"
+
+#: functions/quality-info/sections/getting-started.php:22
+msgid "You can use this theme for any type of activity. Quality is compatible with popular plugins like WPML and Polylang, and has predefined versions of a Contact page, a Services page, Portfolio columned layout pages, About Us and Blog layout pages, to help you create an effective and impactful web presence."
+msgstr "您可以使用此主题进行任何类型的活动。Quality与流行的插件像WPML和Polylang兼容，以下页面并具有预定义的版本：联系页面，服务页面，作品集柱布局页面，关于我们页面以及博客布局页面，帮助您建立一个有效的和有影响力的站点。"
+
+#: functions/quality-info/sections/getting-started.php:20
+msgid "This is a Business theme, ideal for creating corporate and business websites. The premium version has tons of features: the Homepage has a number of sections where you can feature unlimited sliders, your portfolios, user reviews, latest news, services, calls to action and much more. Each section in the HomePage template is carefully designed to fit to all business requirements."
+msgstr "这是一个商业主题，是创建企业和商业站点的理想选择。高级版有很多功能：主页上有很多区域，您可以在其中拥有无限的幻灯器，你的作品集，用户评论，最新新闻，服务，行为号召等等。主页模板中的每个区域都经过精心设计，以适应所有业务需求。"
+
+#: functions/quality-info/sections/free_pro.php:110
+msgid "On the WordPress.org support forum"
+msgstr "在WordPress支持论坛里"
+
+#: functions/quality-info/sections/free_pro.php:97
+msgid "Business Template and Full-Width Template"
+msgstr "业务模板和全宽度页面模板"
+
+#: functions/quality-info/sections/free_pro.php:58
+msgid "Show user's feedback in the Homepage."
+msgstr "在主页上显示用户反馈。"
+
+#: functions/quality-info/sections/free_pro.php:57
+msgid "Testimonial / Review Section"
+msgstr "褒奖/评论区段"
+
+#: functions/quality-info/sections/free_pro.php:54
+msgid "Show all your services in a single place."
+msgstr "在一个地方展示您所有的服务。"
+
+#: functions/quality-info/sections/free_pro.php:53
+msgid "Services Page"
+msgstr "服务页面"
+
+#: functions/quality-info/sections/free_pro.php:49
+msgid "About Us Page"
+msgstr "关于我们页面"
+
+#: functions/quality-info/sections/free_pro.php:28
+msgid "Responsive layout in all devices"
+msgstr "响应布局。 适用于各种设备。"
+
+#: functions/quality-info/sections/free_pro.php:19
+msgid "You will find a number of sections on the front page."
+msgstr "您会在首页找到很多区域。"
+
+#: functions/menu/default_menu_walker.php:23
+msgid "Home"
+msgstr "首页"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:635
+#: functions/customizer-repeater/class/customizer-repeater-control.php:668
+msgid "Add Icon"
+msgstr "添加图标"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:630
+#: functions/customizer-repeater/class/customizer-repeater-control.php:660
+msgid "Remove Icon"
+msgstr "移除图标"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:613
+msgid "Social icons"
+msgstr "社交图标"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:605
+msgid "None"
+msgstr "无"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:600
+msgid "Image type"
+msgstr "图像类型"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:590
+msgid "Video"
+msgstr "视频"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:586
+msgid "Status"
+msgstr "状态"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:582
+msgid "Quote"
+msgstr "引语"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:578
+msgid "Aside"
+msgstr "日志"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:574
+msgid "Standard"
+msgstr "标准"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:570
+msgid "Slide Format"
+msgstr "幻灯片格式"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:561
+msgid "Upload Image"
+msgstr "上传图像"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:539
+msgid "Note: Some icons may not be displayed here. You can see the full list of icons at %1$s."
+msgstr "注意：某些图标可能没有显示在此处。 您可以在 %1$s 上看到完整的图标列表。"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:523
+msgid "Open link in new tab"
+msgstr "在新标签页打开链接"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:367
+#: functions/customizer-repeater/class/customizer-repeater-control.php:486
+msgid "Delete field"
+msgstr "删除字段"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:351
+#: functions/customizer-repeater/class/customizer-repeater-control.php:475
+msgid "Designation"
+msgstr "职位名称"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:343
+#: functions/customizer-repeater/class/customizer-repeater-control.php:466
+msgid "Shortcode"
+msgstr "短代码"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:333
+#: functions/customizer-repeater/class/customizer-repeater-control.php:397
+msgid "Color"
+msgstr "颜色"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:309
+#: functions/customizer-repeater/class/customizer-repeater-control.php:455
+msgid "Video Url"
+msgstr "视频URL"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:290
+#: functions/customizer-repeater/class/customizer-repeater-control.php:437
+#: functions/customizer-repeater/class/customizer-repeater-control.php:627
+#: functions/customizer-repeater/class/customizer-repeater-control.php:649
+msgid "Link"
+msgstr "链接"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr "中继定制器"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr "添加新的字段"
+
+#: functions/customizer-notify/quality-customizer-notify.php:111
+msgid "Activating"
+msgstr "激活中"
+
+#: functions/customizer/customizer_recommended_plugin.php:20
+msgid "Deactivate"
+msgstr "停用"
+
+#: functions/customizer/customizer_recommended_plugin.php:19
+msgid "Activate"
+msgstr "启用"
+
+#: functions/customizer/customizer_recommended_plugin.php:18
+msgid "Install and Activate"
+msgstr "安装并激活"
+
+#: functions/customizer/customizer_recommended_plugin.php:17
+msgid "Recommended Plugin"
+msgstr "插件推荐"
+
+#: functions/customizer/customizer_recommended_plugin.php:16
+msgid "Recommended Actions"
+msgstr "推荐操作"
+
+#: functions/customizer/customizer-slider.php:15
+msgid "Featured slider settings"
+msgstr "特色幻灯设置"
+
+#: functions/customizer/customizer-slider.php:9
+msgid "Slider settings"
+msgstr "幻灯设置"
+
+#: functions/customizer/customizer-blog.php:7
+msgid "Recent Blog setting"
+msgstr "近期博客设置"
+
+#. Template Name of the plugin/theme
+msgid "Full-width page"
+msgstr "全宽页面"
+
+#: index-blog.php:27
+msgid "Posted By"
+msgstr "作者："
+
+#: functions/widget/custom-sidebar.php:6 functions/widget/custom-sidebar.php:8
+msgid "Sidebar widget area"
+msgstr "边栏小工具区"
+
+#: functions/customizer/customizer-slider.php:111
+msgid "Button Link"
+msgstr "按钮链接"
+
+#: functions/customizer/customizer-slider.php:95
+#: functions/customizer-repeater/class/customizer-repeater-control.php:279
+#: functions/customizer-repeater/class/customizer-repeater-control.php:427
+msgid "Button Text"
+msgstr "按钮文字"
+
+#: functions/customizer/customizer-slider.php:63
+#: functions/customizer-repeater/class/customizer-repeater-control.php:263
+#: functions/customizer-repeater/class/customizer-repeater-control.php:412
+msgid "Subtitle"
+msgstr "字幕"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:534
+#: functions/customizer-repeater/class/customizer-repeater-control.php:603
+msgid "Icon"
+msgstr "图标"
+
+#: functions/customizer/customizer-slider.php:78
+#: functions/customizer-repeater/class/customizer-repeater-control.php:270
+#: functions/customizer-repeater/class/customizer-repeater-control.php:419
+msgid "Description"
+msgstr "描述"
+
+#: functions/customizer/customizer-slider.php:30
+#: functions/customizer-repeater/class/customizer-repeater-control.php:558
+#: functions/customizer-repeater/class/customizer-repeater-control.php:604
+msgid "Image"
+msgstr "图像"
+
+#: functions/customizer/customizer-blog.php:47
+#: functions/customizer/customizer-slider.php:48
+#: functions/customizer-repeater/class/customizer-repeater-control.php:256
+#: functions/customizer-repeater/class/customizer-repeater-control.php:405
+msgid "Title"
+msgstr "标题"
+
+#: functions/customizer/customizer-home.php:140
+#: functions/customizer/customizer-home.php:153
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+#: functions/customizer/customizer-blog.php:38 theme_setup_data.php:57
+msgid "Our latest blog posts"
+msgstr "我们的最新博文"
+
+#: functions/customizer/customizer-blog.php:27
+msgid "Enable Home Blog section"
+msgstr "启用在主页博客部分"
+
+#: comments.php:46
+msgid "Send Message"
+msgstr "发送信息"
+
+#: comments.php:44
+msgid "Logout"
+msgstr "登出"
+
+#: comments.php:28
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "要发表评论，您必须先<a href=\"%s\">登录</a>。"
+
+#: 404.php:11
+msgid "Go Back"
+msgstr "返回"
+
+#: functions/quality-info/welcome-screen.php:237
+msgid "Child Themes"
+msgstr "子主题"
+
+#: functions/quality-info/welcome-screen.php:236
+msgid "Free VS PRO"
+msgstr "免费版与专业版"
+
+#: functions/quality-info/sections/getting-started.php:24
+#: functions/quality-info/welcome-screen.php:233
+msgid "Getting Started"
+msgstr "开始设置"
+
+#: functions/quality-info/welcome-screen.php:163
+msgid "View Theme Info"
+msgstr "查看主题信息"
+
+#: functions/quality-info/welcome-screen.php:126
+msgid "Hooray! There are no required actions for you right now."
+msgstr "太棒了！当前没有您必须要做的了。"
+
+#: functions/quality-info/sections/github.php:117
+msgid "The theme supports yet another famous plugin: WPML. With the help of this support you can create a website available in multiple languages."
+msgstr "主题支持另一个著名的插件：WPML。在这个插件的帮助下，您可以创建一个多语言的站点。"
+
+#: functions/quality-info/sections/github.php:116
+msgid "Translation Ready"
+msgstr "支持多国语言翻译"
+
+#: functions/quality-info/sections/github.php:106
+msgid "Custom widget "
+msgstr "自定义小工具"
+
+#: functions/quality-info/sections/github.php:98
+msgid "We provide good knowledge-base articles to help you create effective websites. You can visit these articles through our"
+msgstr "我们提供良好的知识库文章将帮助您创建有效的站点。在以下链接里，您可以找到这些文章："
+
+#: functions/quality-info/sections/github.php:97
+msgid "Well Documented"
+msgstr "文档很齐全"
+
+#: functions/quality-info/sections/github.php:79
+msgid "Testimonials are a powerful way to gain credibility. You can display testimonials with a carousel effect."
+msgstr "褒奖是获得信誉的有力途径。您可以以带有轮播效果来显示褒奖。"
+
+#: functions/quality-info/sections/github.php:78
+msgid "Testimonial Feature"
+msgstr "褒奖特性"
+
+#: functions/quality-info/sections/github.php:70
+msgid "Latest News Section"
+msgstr "最新消息区段"
+
+#: functions/quality-info/sections/github.php:62
+msgid "Showcase any number of projects. This theme provides you with an option to create 2, 3, 4 column grid layouts by using the portfolio 2, 3, 4 column layout templates, respectively. If you have a number of projects to present then these templates are the answer. You can also create categorized portfolios, which display all the portfolio categories in a single place. In fact, we have coded this theme so that you can create any number of different portfolios."
+msgstr "展示任何项目。这个主题为您提供了一个选项，可以使用组合2, 3, 4列布局模板创建2, 3, 4列网格布局。如果您有许多项目要呈现，那么这些模板就是答案。您还可以创建分类投资组合，在一个地方显示所有作品集合类别。事实上，我们已经编写了这个主题，以便您可以创建任意数量的不同作品集。"
+
+#: functions/quality-info/sections/github.php:61
+msgid "Portfolio Features"
+msgstr "作品集特性"
+
+#: functions/quality-info/sections/github.php:51
+msgid "Service Features"
+msgstr "服务特性"
+
+#: functions/quality-info/sections/github.php:42
+msgid "Caption Slider"
+msgstr "字幕幻灯"
+
+#: functions/quality-info/sections/github.php:33
+msgid "Multi Level Navigation"
+msgstr "多层次的导航"
+
+#: functions/quality-info/sections/github.php:16
+msgid "Site Layout"
+msgstr "站点布局"
+
+#: functions/quality-info/sections/getting-started.php:51
+msgid "Lite Demo"
+msgstr "展示Lite版本"
+
+#: functions/quality-info/sections/getting-started.php:44
+msgid "Useful Links"
+msgstr "有用的链接"
+
+#: functions/quality-info/sections/free_pro.php:152
+msgid "Get Quality PRO Now!"
+msgstr "现在获取Quality PRO版本！"
+
+#: functions/quality-info/sections/free_pro.php:122
+msgid "Quality PRO"
+msgstr "Quality PRO"
+
+#: functions/quality-info/sections/free_pro.php:72
+msgid "Get instant 24/7 support on our Support Forum."
+msgstr "在我们的支持论坛上获得即时24/7支持。"
+
+#: functions/quality-info/sections/free_pro.php:71
+msgid "Support Forum"
+msgstr "支持论坛"
+
+#: functions/quality-info/sections/free_pro.php:63
+msgid "Customize the style without adding any code."
+msgstr "不添加任何代码而定制样式。"
+
+#: functions/quality-info/sections/free_pro.php:62
+msgid "Typography Settings"
+msgstr "排版设置"
+
+#: functions/quality-info/sections/free_pro.php:46
+msgid "Present your project/portfolio collection with 2 column, 3 column and 4 column layouts. You can also display your project/portfolio by category."
+msgstr "用2列、3列或4列布局呈现您的项目/作品集集合。您还可以按类别显示项目/作品集。"
+
+#: functions/quality-info/sections/free_pro.php:45
+msgid "Portfolio"
+msgstr "作品集"
+
+#: functions/quality-info/sections/free_pro.php:43
+msgid "Display your Shop and Business location on your website using Google Maps."
+msgstr "在您的站点上使用Google Maps显示您商店和商业的地点。"
+
+#: functions/quality-info/sections/github.php:88
+msgid "Mulitple Color Schemes"
+msgstr "多色彩方案"
+
+#: functions/quality-info/sections/free_pro.php:35
+msgid "Parallax Effect"
+msgstr "视差效果"
+
+#: functions/quality-info/sections/free_pro.php:30
+msgid "Contact Form Support"
+msgstr "联系标支持"
+
+#: functions/quality-info/sections/free_pro.php:27
+msgid "Mobile Friendly"
+msgstr "适用于移动端"
+
+#: functions/quality-info/sections/free_pro.php:24
+msgid "Layout Options"
+msgstr "布局选项"
+
+#: functions/quality-info/sections/free_pro.php:21
+msgid "Page Templates Support"
+msgstr "页面模板支持"
+
+#: functions/quality-info/sections/free_pro.php:18
+msgid "Frontpage Sections"
+msgstr "首页区域"
+
+#: functions/quality-info/sections/free_pro.php:14
+msgid "Features"
+msgstr "特色"
+
+#: functions/quality-info/sections/child-themes.php:101
+msgid "Quality Orange - Current theme"
+msgstr "Quality Orange - 当前主题"
+
+#: functions/quality-info/sections/child-themes.php:88
+#: functions/quality-info/sections/child-themes.php:94
+msgid "Quality Orange"
+msgstr "Quality Orange"
+
+#: functions/quality-info/sections/child-themes.php:86
+msgid "Quality Orange Child Theme"
+msgstr "Quality Orange子主题"
+
+#: functions/quality-info/sections/child-themes.php:71
+msgid "Quality - Current theme"
+msgstr "Quality - 当前主题"
+
+#: functions/quality-info/sections/child-themes.php:58
+#: functions/quality-info/sections/child-themes.php:64
+msgid "Quality Green"
+msgstr "Quality Green"
+
+#: functions/quality-info/sections/child-themes.php:56
+msgid "Quality Green Child Theme"
+msgstr "Quality Green子主题"
+
+#: functions/quality-info/sections/child-themes.php:43
+#: functions/quality-info/sections/child-themes.php:72
+#: functions/quality-info/sections/child-themes.php:102
+msgid "Customize"
+msgstr "自定义"
+
+#: functions/quality-info/sections/child-themes.php:42
+msgid "Quality Blue - Current theme"
+msgstr "Quality Blue - 当前主题"
+
+#: functions/quality-info/sections/child-themes.php:37
+#: functions/quality-info/sections/child-themes.php:66
+#: functions/quality-info/sections/child-themes.php:96
+msgid "Live Preview"
+msgstr "实时预览"
+
+#: functions/quality-info/sections/child-themes.php:36
+#: functions/quality-info/sections/child-themes.php:65
+#: functions/quality-info/sections/child-themes.php:95
+msgid "Install %s now"
+msgstr "现在安装%s"
+
+#: functions/quality-info/sections/child-themes.php:29
+msgid "Quality Blue"
+msgstr "Quality Blue"
+
+#: functions/quality-info/sections/child-themes.php:18
+msgid "Below you will find a selection of Quality child themes that will totally transform the look of your site."
+msgstr "在下方，您将看到可供选择的Quality子主题。这将完全改变您的站点现在的样子。"
+
+#: functions/quality-info/sections/child-themes.php:16
+msgid "Install & Use Quality Child Themes"
+msgstr "安装与使用Quality子主题"
+
+#: functions/quality-info/sections/child-themes.php:27
+#: functions/quality-info/sections/getting-started.php:37
+msgid "Quality Blue Child Theme"
+msgstr "Quality Blue子主题"
+
+#: functions/customizer/customizer-pro.php:48
+msgid "View PRO Demo"
+msgstr "查看PRO演示"
+
+#: functions/customizer/customizer-slider.php:88 theme_setup_data.php:17
+msgid "Get this theme"
+msgstr "获取该主题"
+
+#: functions/widget/custom-sidebar.php:16
+#: functions/widget/custom-sidebar.php:18
+msgid "Footer widget area"
+msgstr "页脚小工具区"
+
+#. Template Name of the plugin/theme
+msgid "Business Template"
+msgstr "业务模板"
+
+#: functions/quality-info/sections/free_pro.php:42
+msgid "Google Maps"
+msgstr "Google地图"
+
+#: functions/customizer/customizer-pro.php:13
+#: functions/customizer/customizer-pro.php:20
+msgid "Upgrade to PRO"
+msgstr "升级成PRO版"
+
+#: tag.php:8
+msgid "Tag Archive %s"
+msgstr "标签归档%s"
+
+#: functions.php:68
+msgid "Primary Menu"
+msgstr "主菜单"
+
+#: functions.php:54
+msgid "Page"
+msgstr "页"
+
+#: theme_setup_data.php:40
+msgid "Featured portfolio projects"
+msgstr "特色作品集项目"
+
+#: functions/customizer/customizer-pro.php:107
+msgid "DOCUMENTATION"
+msgstr "文档"
+
+#: functions/customizer/customizer-pro.php:76
+msgid "ADD YOUR REVIEW"
+msgstr "添加您的评论"
+
+#: functions/customizer/customizer-home.php:132
+msgid "Show Logo text"
+msgstr "显示标志文字"
+
+#: functions/customizer/customizer-home.php:110
+msgid "Enter Logo Height"
+msgstr "指定标志高度"
+
+#: functions/customizer/customizer-home.php:91
+msgid "Enter Logo Width"
+msgstr "指定标志宽度"
+
+#: functions/customizer/customizer-home.php:70
+msgid "Enable/Disable Logo"
+msgstr "启用/禁用图标"
+
+#: functions/customizer/customizer-home.php:51
+msgid "Upload a 150x150 Logo Image"
+msgstr "上传一个150x150px图标"
+
+#: functions/customizer/customizer-home.php:34
+msgid "Header logo settings"
+msgstr "顶部标志设置"
+
+#: functions/customizer/customizer-home.php:28
+msgid "Choose your favicon (ideal width and height is 16x16 or 32x32)"
+msgstr "选择您的图标（最佳宽度和高度是16x16或32x32）"
+
+#: functions/customizer/customizer-home.php:16
+msgid "Upload a Favicon"
+msgstr "上传图标"
+
+#: functions/customizer/customizer-home.php:14
+msgid "Site Favicon"
+msgstr "网站图标"
+
+#: functions/customizer/customizer-home.php:8
+msgid "Header settings"
+msgstr "页眉设置"
+
+#: functions/customizer/customizer-copyright.php:26
+msgid "Copyright text"
+msgstr "版权说明"
+
+#: functions/customizer/customizer-copyright.php:8
+msgid "Footer copyright settings"
+msgstr "页脚版权设置"
+
+#: functions/commentbox/comment-function.php:29
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: functions/commentbox/comment-function.php:21
+msgid "at"
+msgstr "在"
+
+#: functions/commentbox/comment-function.php:12
+msgid "Reply"
+msgstr "回复"
+
+#: comments.php:49
+msgid "Leave a Reply"
+msgstr "发表评论"
+
+#: comments.php:44
+msgid "Logged in as"
+msgstr "以以下身份登陆"
+
+#: comments.php:42
+msgid "Comment"
+msgstr "评论"
+
+#: comments.php:34
+msgid "Email"
+msgstr "电子邮件"
+
+#: comments.php:33
+msgid "Name"
+msgstr "名称"
+
+#: comments.php:19
+msgid "Newer Comments &rarr;"
+msgstr "较新评论 &rarr;"
+
+#: comments.php:18
+msgid "&larr; Older Comments"
+msgstr "&larr; 早期评论"
+
+#: comments.php:17
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: comments.php:2
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "这篇文章受密码保护。输入密码以查看评论。"
+
+#: archive.php:62 author.php:48 category.php:48 index.php:54 search.php:60
+#: single.php:51 tag.php:50
+msgid "Read More"
+msgstr "阅读更多"
+
+#: archive.php:17
+msgid "Blog Archive"
+msgstr "博客归档"
+
+#: archive.php:15
+msgid "Yearly Archive"
+msgstr "年度归档"
+
+#: archive.php:13
+msgid "Monthly Archive"
+msgstr "月度归档"
+
+#: archive.php:11
+msgid "Daily Archive"
+msgstr "按日归档"
+
+#: 404.php:10
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "非常抱歉，您正在找的页面不存在。"
+
+#: 404.php:9
+msgid "Oops! Page not found"
+msgstr "出错了！未找到页面"
+
+#: 404.php:8
+msgid "Error 404"
+msgstr "404错误"
+
+#. Author URI of the plugin/theme
+msgid "https://webriti.com/"
+msgstr "https://webriti.com/"
+
+#. Author of the plugin/theme
+msgid "Webriti"
+msgstr "Webriti"
+
+#. Theme URI of the plugin/theme
+msgid "https://webriti.com/quality-lite-version-details-page/"
+msgstr "https://webriti.com/quality-lite-version-details-page/"

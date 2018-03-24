@@ -1,0 +1,1125 @@
+# Translation of Themes - ElitePress in Chinese (China)
+# This file is distributed under the same license as the Themes - ElitePress package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-12-23 20:02:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - ElitePress\n"
+
+#. Description of the plugin/theme
+msgid "ElitePress is a Business WordPress Theme that contains many features for customizing your website as you need. Already, thousands of users are enjoying this theme because it is designed for multiple businesses like corporates, law firms, digital media agencies, architecture firms, personal blogs, portfolios and freelancer websites. The theme is developed using Bootstrap 3 CSS framework which makes it friendly for all devices such as mobiles, tablets, and laptops, etc. In ElitePress Lite, you can easily set Social Icons in the header, Contact Information, Services, Portfolio, and a 3-column widgetized footer. Several page templates are also added: Homepage and a Full Width page template. In the premium version, you will get a boxed layout, 7 predefined color schemes, a feature for creating your own custom color scheme, an eye-catching slider, and Services, Testimonials, Portfolio, Clients / Sponsors, Blog Layouts, Layout Manager and Latest News. You will also get various page templates including About, Services, Portfolio, Blog and Contact Us. The theme has support for popular plugins such as WPML, Polylang and JetPack Gallery Extensions. Just navigate to Appearance / Customize to start customizing. Both the lite and premium versions of ElitePress theme come with various locales. Check the premium version theme demo at https://webriti.com/demo/wp/elitepress"
+msgstr "ElitePress是一个WordPress商务主题，包含许多功能而根据需求自定义您的站点。有成千上万用户之所以享用这个主题,是因为这主题是为各种行业譬如企业，律师所，数字代理公司，建筑公司，私人博客，作品集与自由职业者站点。该主题是使用Bootstrap 3 CSS框架开发的，它使所有设备（如手机，平板电脑和笔记本电脑等）都能够使用。在ElitePress Lite中，您可以轻松地在标题，联系信息，服务，作品集和3列窗格化页脚中设置社交图标。不仅如此，还添加了几个页面模板：主页和全宽度页面模板。在高级版本中，您将得到一个盒装布局，7个预定义的配色方案，一个创建您自己的自定义配色方案，一个引人注目的幻灯，和服务，褒奖，作品集，客户/赞助商，博客布局，布局管理器和最新消息的功能。您还将获得各种页面模板，包括有关，服务，作品集，博客和联系我们。主题为流行的插件如WPML支持，Polylang和Jetpack Gallery Extensions。只需导航到“外观”>“自定义”以开始定制。无论是ElitePress主题Lite或Pro版本，都会有不同语言翻译。在https://webriti.com/demo/wp/elitepress检查高级版主题演示"
+
+#. Theme Name of the plugin/theme
+msgid "ElitePress"
+msgstr "ElitePress"
+
+#: index-slider.php:91
+msgid "Let us help you make your website amazing!"
+msgstr "让我们帮助您使您的站点惊人！"
+
+#: functions/meta-box/post-meta.php:22
+msgid "Enter the banner's heading title"
+msgstr "输入横幅标题"
+
+#: functions/meta-box/post-meta.php:21
+msgid "Allow banners on the page"
+msgstr "在页面上允许横幅"
+
+#: functions/elitepress-info/welcome-screen.php:55
+msgid "Welcome! Thank you for choosing ElitePress Lite! To take full advantage of all of our theme's best features, please visit our %swelcome page%s."
+msgstr "欢迎！感谢您选择Elitepress Lite！为了充分利用我们的主题的最佳功能，请访问我们的%s欢迎页面%s。"
+
+#: functions/elitepress-info/sections/github.php:43
+msgid "You can create unlimited slides which you can control via Appearance > Customize."
+msgstr "您可以创建无限的幻灯片，而通过“外观”>“自定制”来控制。"
+
+#: functions/elitepress-info/sections/github.php:34
+msgid "There are beautifully styled navigation/menus in ElitePress. You can create sub menus and make multi level menus."
+msgstr "在ElitePress里，有漂亮的导航菜单。您可以创建子菜单并制作多级菜单。"
+
+#: functions/elitepress-info/sections/github.php:25
+msgid "In the premium version, ElitePress PRO, you get a top header sidebar area where you can use any widget. We have created a number of widgets in the theme which you can use here, and all are styled. Specifically, you can use the Header Widget to show your email address, contact number or any other info of your choice."
+msgstr "在高级版本，ElitePress Pro，您得到一个页眉边栏，你可以使用任何小工具。我们在主题里已经创建而设计了一些小工具给您使用。具体来说，您可以使用页眉小工具显示您的电子邮件地址、联系电话或其他任何信息。"
+
+#: functions/elitepress-info/sections/getting-started.php:22
+msgid "The premium version, ElitePress PRO, offers more enhancements and features. Like a boxed layout with background patterns, 7 predefined color schemes plus the opportunity to create your own color, an eye-catching Slider, a Layout Manager, and unlimited Services, Testimonials, Portfolios, Clients/Sponsors, Blog, and Latest News. You will also get many page templates: About, Service, Portfolio, Blog, and Contact Us. The theme supports popular plugins like WPML, Polylang and the JetPack Gallery Extensions. Just navigate to Appearance/Customize to start personalising your theme. You can see the premium version, ElitePress PRO at https://webriti.com/demo/wp/elitepress."
+msgstr "高级版本，ElitePress Pro，提供了更多的功能和特点。就像一个带有背景图案的盒装布局，7个预定义的配色方案，加上创建你自己颜色的机会，一个引人注目的幻灯，布局管理器，无限的服务，褒奖，作品集，客户/赞助商，博客和最新消息帖子。您也会得到很多页面模板：关于，服务，作品集，博客，和联系我们。主题支持流行的插件像WPML，Polylang和Jetpack Gallery Extensions。只是浏览“外观”>“自定义”启动个性化您的主题。您可以看到高级版本，ElitePress Pro在https://webriti.com/demo/wp/elitepress。"
+
+#: functions/elitepress-info/sections/getting-started.php:20
+msgid "ElitePress is a WordPress theme developed for corporate business. It provides a simple and elegant look. Thousands of users are loving it, as it's perfect for multiple businesses, like digital agencies, freelancers, bloggers, startups, portfolios, corporate or any other type of activity. The theme is developed using Bootstrap 3 CSS framework, making it friendly to all the devices (mobiles, tablets, laptops etc.). ElitePress Lite features sections like Header, Slider, CTA, Services, Portfolios and 3 column Widgetized Footer. You can also show your social and contact information in the header section, for a more effective web presence. Theme comes with two page templates one is homepage and the second is full-width page template."
+msgstr "ElitePress是一个为企业开发的WordPress主题。它提供了一个简单优雅的外观。成千上万的用户者喜欢它，因为它非常适合多种业务，如数字机构，自由职业者，博客，初创公司，投资组合，公司或任何其他类型的活动。该主题是使用BootStrap 3 CSS框架开发的，使它对所有的设备（手机、平板电脑、笔记本电脑等）都很友好。ElitePress Lite功能部分如页眉、幻灯、行动号召、文件夹和页脚3柱小工具。您还可以在页眉部分显示您的社交和联系信息，以获得更有效的在线业务。主题有两个页面模板，一个是主页，第二个是全宽度页面模板。"
+
+#: functions/elitepress-info/sections/getting-started.php:14
+msgid "About ElitePress"
+msgstr "关于ElitePress"
+
+#: functions/elitepress-info/sections/free_pro.php:123
+msgid "Top header Widget, Header Widget, Slider with unlimited slides, Unlimited Services, Callout Section, Portfolio [Unlimited Portfolio], Latest News, Clients, Testimonials, Contact with map"
+msgstr "页眉小工具，幻灯与无限的幻灯片，无限服务，标注部分，文件夹[无限的文件夹]，最新新闻，客户，证明，联络以及地图"
+
+#: functions/elitepress-info/sections/free_pro.php:95
+msgid "Header Widget, Slider with unlimited slides, Unlimited Services, Callout Section, Product section, Latest News"
+msgstr "页眉小工具，幻灯与无限的幻灯片，无限服务，标注部分，产品部分，最新消息"
+
+#: functions/elitepress-info/sections/free_pro.php:59
+msgid "Show the members of your team, your clients, or any custom content."
+msgstr "显示您的团队成员，客户或任何自定义内容。"
+
+#: functions/elitepress-info/sections/free_pro.php:24
+msgid "The premium version, ElitePress PRO, includes various page templates"
+msgstr "ElitePress PRO是ElitePress的高级版本，包含各种页面模板"
+
+#: functions/customizer/customizer.php:48
+msgid "A clean and fresh design"
+msgstr "一个洁净清新设计"
+
+#: functions/customizer/customizer.php:40
+#: functions/customizer/customizer.php:49
+#: functions/customizer/customizer.php:58
+msgid "With our themes, you can create a stunning website in no time."
+msgstr "使用我们的主题能让您在最短的时间内创造一个极好的站点。"
+
+#: functions/customizer/customizer-project.php:187 theme_setup_data.php:100
+msgid "Planning your next move"
+msgstr "计划下一步行动"
+
+#: functions/customizer/customizer-project.php:132 theme_setup_data.php:96
+msgid "Functional elegance"
+msgstr "功能的优雅"
+
+#: functions/customizer/customizer-project.php:77 theme_setup_data.php:92
+msgid "Growing your business"
+msgstr "栽培您的事业"
+
+#: functions/customizer/customizer-homecallout.php:6
+#: functions/customizer/customizer-homecallout.php:12
+msgid "Home header callout setting"
+msgstr "首页页眉标注设置"
+
+#: functions/elitepress-info/welcome-screen.php:209
+msgid "Free vs PRO"
+msgstr "免费 vs PRO"
+
+#: functions/elitepress-info/welcome-screen.php:207
+msgid "Actions Required"
+msgstr "必要行为"
+
+#: functions/elitepress-info/welcome-screen.php:206
+msgid "Getting Started"
+msgstr "开始设置"
+
+#: functions/elitepress-info/welcome-screen.php:136
+msgid "View Theme Info"
+msgstr "查看主题信息"
+
+#: functions/elitepress-info/welcome-screen.php:99
+msgid "Hooray! There are no required actions for you right now."
+msgstr "太棒了！当前没有您必须要做的了。"
+
+#: functions/elitepress-info/welcome-screen.php:56
+msgid "Get started with ElitePress Lite"
+msgstr "开始使用ElitePress Lite"
+
+#: functions/elitepress-info/sections/github.php:117
+msgid "The theme supports yet another famous plugin: WPML. With the help of this support you can create a website available in multiple languages."
+msgstr "主题支持另一个著名的插件：WPML。在这个插件的帮助下，您可以创建一个多语言的站点。"
+
+#: functions/elitepress-info/sections/github.php:107
+msgid "Building a website with our custom widgets is very simple. Just place them inside the available sidebar or even in the content."
+msgstr "用我们的自定义小工具构建一个站点是非常简单。只需将它们放在可用的边栏或内容中即可。"
+
+#: functions/elitepress-info/sections/github.php:106
+msgid "Custom widget"
+msgstr "自定义小工具"
+
+#: functions/elitepress-info/sections/github.php:98
+msgid "We provide good knowledgebase articles which will help you create effective websites. You can reach these articles via our <a href='http://webriti.com/help/category/themes/elitepress/' target='_blank'>Help Section</a>."
+msgstr "我们提供良好的知识库文章将帮助您创建有效的站点。您可以通过我们的<a href='http://webriti.com/help/category/themes/elitepress/' target='_blank'>帮助栏</a>找到这些文章。"
+
+#: functions/elitepress-info/sections/github.php:97
+msgid "Well Documented"
+msgstr "文档很齐全"
+
+#: functions/elitepress-info/sections/github.php:89
+msgid "You will get 7 preset color schemes and you can even create your own favorite color schemes using the Custom Color Setting in the Customizer."
+msgstr "您将得到7个预定义的配色方案。不止，还能在“定制器”里用自定义颜色定制设置创建您自己的自定义配色方案。"
+
+#: functions/elitepress-info/sections/github.php:79
+msgid "Testimonials are a powerful way to gain credibility. You can display testimonials with a carousel effect."
+msgstr "褒奖是获得信誉的有力途径。您可以以带有轮播效果来显示褒奖。"
+
+#: functions/elitepress-info/sections/github.php:78
+msgid "Testimonial Feature"
+msgstr "褒奖特性"
+
+#: functions/elitepress-info/sections/github.php:71
+msgid "This section is often used to display Latest News, Announcements and Events type content."
+msgstr "此区域通常用于显示最新新闻、公告和事件类型内容。"
+
+#: functions/elitepress-info/sections/github.php:70
+msgid "Latest News Section"
+msgstr "最新消息区段"
+
+#: functions/elitepress-info/sections/github.php:62
+msgid "Showcase any number of projects. This theme provides you with an option to create 2, 3, 4 column grid layouts by using the portfolio 2, 3, 4 column layout templates, respectively. If you have a number of projects to present then these templates are the answer. You can also create categorized portfolios, which display all the portfolio categories in a single place. In fact, we have coded this theme so that you can create any number of different portfolios."
+msgstr "展示任何项目。这个主题为您提供了一个选项，可以使用组合2, 3, 4列布局模板创建2, 3, 4列网格布局。如果您有许多项目要呈现，那么这些模板就是答案。您还可以创建分类投资组合，在一个地方显示所有作品集合类别。事实上，我们已经编写了这个主题，以便您可以创建任意数量的不同作品集。"
+
+#: functions/elitepress-info/sections/github.php:61
+msgid "Portfolio Features"
+msgstr "作品集特性"
+
+#: functions/elitepress-info/sections/github.php:53
+msgid "You can display any number of Services on the Homepage, with thousands of FontAwesome icons available. You can also display a set of services on a separate page by using the service-related page templates."
+msgstr "您可以在主页上显示无数的服务，与成千上万的FontAwesome提供的图标。您还可以通过使用与服务相关的页面模板，在单独的页面上显示一组服务。"
+
+#: functions/elitepress-info/sections/github.php:51
+msgid "Service Features"
+msgstr "服务特性"
+
+#: functions/elitepress-info/sections/github.php:42
+msgid "Caption Slider"
+msgstr "字幕幻灯"
+
+#: functions/elitepress-info/sections/github.php:33
+msgid "Multi Level Navigation"
+msgstr "多层次的导航"
+
+#: functions/elitepress-info/sections/github.php:24
+msgid "Header Section"
+msgstr "页眉设置"
+
+#: functions/elitepress-info/sections/github.php:17
+msgid "This feature helps you to rename the slug name from the URL, allowing you to make it SEO friendly."
+msgstr "此功能允许您重命名URL中的类型别名，让URL更有SEO友好。"
+
+#: functions/elitepress-info/sections/github.php:11
+#: functions/elitepress-info/welcome-screen.php:208
+msgid "Why Upgrade to Pro?"
+msgstr "为何升级成Pro版？"
+
+#: functions/elitepress-info/sections/getting-started.php:64
+msgid "Your feedback is valuable to us"
+msgstr "您的反馈对我们是有价值的。"
+
+#: functions/elitepress-info/sections/getting-started.php:61
+msgid "Premium Theme Details"
+msgstr "高级主题详情"
+
+#: functions/elitepress-info/sections/getting-started.php:52
+msgid "Premium Theme Support"
+msgstr "高级主题支持"
+
+#: functions/elitepress-info/sections/getting-started.php:49
+msgid "Pro Demo"
+msgstr "展示Pro版本"
+
+#: functions/elitepress-info/sections/getting-started.php:46
+msgid "Lite Demo"
+msgstr "展示Lite版本"
+
+#: functions/elitepress-info/sections/getting-started.php:38
+msgid "Useful Links"
+msgstr "有用的链接"
+
+#: functions/elitepress-info/sections/getting-started.php:28
+msgid "Appointment Blue Child Theme"
+msgstr "Appointment Blue子主题"
+
+#: functions/elitepress-info/sections/free_pro.php:147
+msgid "Get ElitePress PRO Now!"
+msgstr "现在获取ElitePress PRO版本！"
+
+#: functions/elitepress-info/sections/free_pro.php:136
+msgid "Webriti Support Forum"
+msgstr "Webriti支持论坛"
+
+#: functions/elitepress-info/sections/free_pro.php:125
+msgid "About Us, Services, Portfolio, Blog Left & Right Sidebars, Blog Full Width, Page Full Width, Contact Page and much more."
+msgstr "关于我们，服务，文件夹，博客左跟右边栏，全宽度博客，全宽度页面，联系页面，还有更多页面模版。"
+
+#: functions/elitepress-info/sections/free_pro.php:119
+msgid "ElitePress PRO"
+msgstr "ElitePress PRO"
+
+#: functions/elitepress-info/sections/free_pro.php:107
+msgid "WordPress Support Forum"
+msgstr "WordPress支持论坛"
+
+#: functions/elitepress-info/sections/free_pro.php:96
+msgid "Homepage Template and Full-Width Page Template"
+msgstr "主页模板和全宽度页面模板"
+
+#: functions/elitepress-info/sections/free_pro.php:91
+msgid "ElitePress Lite"
+msgstr "ElitePress Lite"
+
+#: functions/elitepress-info/sections/free_pro.php:80
+msgid "Get instant 24/7 support on our Support Forum."
+msgstr "在我们的支持论坛上获得即时24/7支持。"
+
+#: functions/elitepress-info/sections/free_pro.php:79
+msgid "Support Forum"
+msgstr "支持论坛"
+
+#: functions/elitepress-info/sections/free_pro.php:75
+msgid "With the help of WPML, you can make a Multilingual Website."
+msgstr "随着WPML的帮助下，您可以做一个多语种站点。"
+
+#: functions/elitepress-info/sections/free_pro.php:74
+msgid "WPML / Polylang Support"
+msgstr "支持WPML / Polylang"
+
+#: functions/elitepress-info/sections/free_pro.php:69
+msgid "Show user feedback on the Homepage and Services page."
+msgstr "在主页和服务页面上显示用户反馈。"
+
+#: functions/elitepress-info/sections/free_pro.php:68
+msgid "Testimonial / Review Section"
+msgstr "褒奖/评论区段"
+
+#: functions/elitepress-info/sections/free_pro.php:64
+msgid "Show all your services in a single place."
+msgstr "在一个地方展示您所有的服务。"
+
+#: functions/elitepress-info/sections/free_pro.php:63
+msgid "Services Page"
+msgstr "服务页面"
+
+#: functions/elitepress-info/sections/free_pro.php:58
+msgid "About Us Page"
+msgstr "关于我们页面"
+
+#: functions/elitepress-info/sections/free_pro.php:54
+msgid "Present your project/portfolio collection with a 2 column, 3 column or 4 column layout. You can also display your project/portfolio by category."
+msgstr "用2列、3列或4列布局呈现您的项目/文件夹集合。您还可以按类别显示项目/文件夹。"
+
+#: functions/elitepress-info/sections/free_pro.php:48
+msgid "Display your Shop and Business location on your website using Google Maps."
+msgstr "在您的站点上使用Google Maps显示您商店和商业的地点。"
+
+#: functions/elitepress-info/sections/free_pro.php:47
+msgid "Google Map"
+msgstr "Google Map"
+
+#: functions/elitepress-info/sections/free_pro.php:43
+msgid "Enjoy using the 13 preset color schemes. You can also create custom skins without adding any code."
+msgstr "享受13种预设色彩方案。您还可以在不添加任何代码的情况下创建自定义外皮。"
+
+#: functions/elitepress-info/sections/free_pro.php:38
+msgid "This feature allows you to rename the custom post type slug names in the URL."
+msgstr "此功能允许您重命名URL中的自定义帖子类型别名。"
+
+#: functions/elitepress-info/sections/free_pro.php:37
+#: functions/elitepress-info/sections/github.php:16
+msgid "SEO Friendly URL"
+msgstr "SEO 友好 URL"
+
+#: functions/elitepress-info/sections/free_pro.php:33
+msgid "Contact Form Support"
+msgstr "联系标支持"
+
+#: functions/elitepress-info/sections/free_pro.php:29
+msgid "Responsive layout in all devices"
+msgstr "响应布局。 适用于各种设备。"
+
+#: functions/elitepress-info/sections/free_pro.php:28
+msgid "Mobile Friendly"
+msgstr "适用于移动端"
+
+#: functions/elitepress-info/sections/free_pro.php:23
+msgid "Page Templates Support"
+msgstr "页面模板支持"
+
+#: functions/elitepress-info/sections/free_pro.php:19
+msgid "You will find a number of sections on the front page."
+msgstr "您会在首页找到很多区域。"
+
+#: functions/elitepress-info/sections/free_pro.php:18
+msgid "Frontpage Sections"
+msgstr "首页区域"
+
+#: functions/elitepress-info/sections/actions-required.php:30
+#: functions/elitepress-info/sections/actions-required.php:37
+msgid "ElitePress Blue Child Theme"
+msgstr "ElitePress Blue子主题"
+
+#: functions/elitepress-info/sections/actions-required.php:22
+msgid "Do you want to show the Homepage as a Front Page? You need to set the Homepage as a static page, as shown in the snapshot below. Now go to the Customizer and start configuring the sections in the Business Template. We hope you will find this theme useful."
+msgstr "您想把主页显示为首页吗？您需要将主页设置为静态页面，如下面的快照所示。现在去定制，并开始在商业模板配置区域。我们希望您会发觉这个主题有用。"
+
+#: functions/elitepress-info/sections/actions-required.php:21
+msgid "2. Assign Homepage as Front Page Display"
+msgstr "2.指定主页为首页显示"
+
+#: functions/elitepress-info/sections/actions-required.php:14
+msgid "To set up an exact replica of the Homepage as shown in our demo, you have to create a WordPress page using the Home Page Template. The Business Template has all the sections like banners, services, portfolio, etc., which are ideal for any business site. Kindly refer to the snapshot."
+msgstr "如我们的演示所示建立一个完整的主页副本，您必须使用主页模板创建一个WordPress页面。业务模板有所有的理想商业站点的区域，如横幅，服务，文件夹等。请参考快照。"
+
+#: functions/elitepress-info/sections/actions-required.php:13
+msgid "1. Creating Homepage using Home Page Template."
+msgstr "1.利用主页模板创造主页。"
+
+#: functions/widget/elitepress_social_icon.php:221
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+#: functions/customizer/customizer-project.php:250
+msgid "Want to add projects and categorization?"
+msgstr "想添加更多项目以及分类吗？"
+
+#: functions/customizer/customizer-project.php:8
+#: functions/customizer/customizer-project.php:14
+msgid "Project settings"
+msgstr "项目设置"
+
+#: functions/customizer/customizer-home.php:50
+msgid "Upload logo"
+msgstr "上传标志"
+
+#: functions/customizer/customizer-copyright.php:23 theme_setup_data.php:81
+msgid "©2017 All Rights Reserved - Webriti. - Designed and Developed by"
+msgstr "©2017 Webriti 版权所有。设计和开发于"
+
+#: functions/customizer/customizer-blog.php:8
+msgid "Latest News Settings"
+msgstr "最新消息设置"
+
+#: comments.php:78
+msgid "Log out from this Account"
+msgstr "以这帐户登出"
+
+#: 404.php:12
+msgid "Error 404"
+msgstr "404错误"
+
+#: index-slider.php:91
+msgid "Boost your site today!"
+msgstr "现在提高您的站点吧！"
+
+#: index-slider.php:91
+msgid "Welcome to the ElitePress WordPress Theme"
+msgstr "欢迎使用ElitePress WordPress主题"
+
+#: functions/widget/elitepress_social_icon.php:16
+msgid "ElitePress social icons widget"
+msgstr "ElitePress社交图标小工具"
+
+#: functions/widget/elitepress_social_icon.php:13
+msgid "WBR: Social icon"
+msgstr "WBR: Social icon"
+
+#: functions/widget/elitepress_header_widget.php:83
+msgid "here"
+msgstr "在这里"
+
+#: functions/widget/elitepress_header_widget.php:83
+msgid "Get your Font Awesome"
+msgstr "获取您的Font Awesome"
+
+#: functions/widget/elitepress_header_widget.php:16
+msgid "ElitePress header widget"
+msgstr "ElitePress页眉小工具"
+
+#: functions/widget/elitepress_header_widget.php:13
+msgid "WBR: Header widget"
+msgstr "WBR: Header widget"
+
+#: functions/widget/custom-sidebar.php:41
+#: functions/widget/custom-sidebar.php:43
+msgid "Top header widget area"
+msgstr "页眉小工具区"
+
+#: functions/widget/custom-sidebar.php:30
+#: functions/widget/custom-sidebar.php:32
+msgid "Top header right area"
+msgstr "页眉右侧区"
+
+#: functions/widget/custom-sidebar.php:19
+#: functions/widget/custom-sidebar.php:21
+msgid "Top header left area"
+msgstr "页眉左侧区"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:635
+#: functions/customizer-repeater/class/customizer-repeater-control.php:668
+msgid "Add Icon"
+msgstr "添加图标"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:630
+#: functions/customizer-repeater/class/customizer-repeater-control.php:660
+msgid "Remove Icon"
+msgstr "移除图标"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:613
+msgid "Social icons"
+msgstr "社交图标"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:605
+msgid "None"
+msgstr "无"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:600
+msgid "Image type"
+msgstr "图像类型"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:590
+msgid "Video"
+msgstr "视频"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:586
+msgid "Status"
+msgstr "状态"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:582
+msgid "Quote"
+msgstr "引语"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:578
+msgid "Aside"
+msgstr "日志"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:574
+msgid "Standard"
+msgstr "标准"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:570
+msgid "Slide Format"
+msgstr "幻灯片格式"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:561
+msgid "Upload Image"
+msgstr "上传图像"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:539
+msgid "Note: Some icons may not be displayed here. You can see the full list of icons at %1$s."
+msgstr "注意：某些图标可能没有显示在此处。 您可以在 %1$s 上看到完整的图标列表。"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:367
+#: functions/customizer-repeater/class/customizer-repeater-control.php:486
+msgid "Delete field"
+msgstr "删除字段"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:351
+#: functions/customizer-repeater/class/customizer-repeater-control.php:475
+msgid "Designation"
+msgstr "职位名称"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:343
+#: functions/customizer-repeater/class/customizer-repeater-control.php:466
+msgid "Shortcode"
+msgstr "短代码"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:333
+#: functions/customizer-repeater/class/customizer-repeater-control.php:397
+msgid "Color"
+msgstr "颜色"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:309
+#: functions/customizer-repeater/class/customizer-repeater-control.php:455
+msgid "Video Url"
+msgstr "视频链接"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:290
+#: functions/customizer-repeater/class/customizer-repeater-control.php:437
+#: functions/customizer-repeater/class/customizer-repeater-control.php:627
+#: functions/customizer-repeater/class/customizer-repeater-control.php:649
+msgid "Link"
+msgstr "链接"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:263
+#: functions/customizer-repeater/class/customizer-repeater-control.php:412
+msgid "Subtitle"
+msgstr "字幕"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr "中继定制器"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr "添加新的字段"
+
+#: functions/customizer/customizer_theme_style.php:54
+msgid "Theme Layout"
+msgstr "主题布局"
+
+#: functions/customizer/customizer_theme_style.php:43
+msgid "wide"
+msgstr "宽"
+
+#: functions/customizer/customizer_theme_style.php:36
+msgid "Theme style setting"
+msgstr "主题外观设置"
+
+#: functions/customizer/customizer_theme_style.php:11
+msgid "Theme Color"
+msgstr "主题颜色"
+
+#: functions/customizer/customizer_header.php:33
+msgid "Click here to add a header widget"
+msgstr "点击这里添加一个页眉小工具"
+
+#: functions/customizer/customizer_header.php:19
+msgid "Select column layout"
+msgstr "选择栏式布局"
+
+#: functions/customizer/customizer_header.php:6
+msgid "Header widget section"
+msgstr "页眉小工具区域"
+
+#: functions/customizer/customizer.php:39
+#: functions/customizer/customizer.php:57
+msgid "ElitePress by webriti themes"
+msgstr "ElitePress由webriti themes所开发"
+
+#: functions/customizer/customizer-slider.php:88
+msgid "Add new slide"
+msgstr "添加幻灯片"
+
+#: functions/customizer/customizer-slider.php:85
+msgid "Slider Content"
+msgstr "幻灯内容"
+
+#: functions/customizer/customizer-service.php:77
+msgid "Service"
+msgstr "服务"
+
+#: functions/customizer/customizer-service.php:76
+msgid "Add new Service"
+msgstr "添加服务"
+
+#: functions/customizer/customizer-service.php:73
+msgid "Service Content"
+msgstr "服务内容"
+
+#: functions/customizer/customizer-blog.php:15 theme_setup_data.php:127
+msgid "Latest news"
+msgstr "最新消息"
+
+#: comments.php:21
+msgid "Posted on"
+msgstr "发布于"
+
+#: author.php:16
+msgid "Author Archive %s"
+msgstr "作者归档%s"
+
+#: functions/customizer/customizer-project.php:41 theme_setup_data.php:89
+msgid "Latest projects"
+msgstr "最新项目"
+
+#: functions/customizer/customizer_banner.php:108
+msgid "Author"
+msgstr "作者"
+
+#: functions/customizer/customizer_banner.php:62
+msgid "Archive"
+msgstr "存档"
+
+#: functions/customizer/customizer_banner.php:16
+msgid "Category"
+msgstr "分类目录"
+
+#: functions/customizer/customizer_banner.php:200
+msgid "Tag"
+msgstr "标签"
+
+#: functions/customizer/customizer-slider.php:71
+msgid "Enable home banner"
+msgstr "启用主页横额"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:534
+#: functions/customizer-repeater/class/customizer-repeater-control.php:603
+#: functions/widget/elitepress_header_widget.php:81
+msgid "Icon"
+msgstr "图标"
+
+#: functions/customizer/customizer-project.php:178
+msgid "Portfolio three"
+msgstr "文件夹三"
+
+#: functions/customizer/customizer-project.php:125
+msgid "Portfolio two"
+msgstr "文件夹二"
+
+#: functions/customizer/customizer-project.php:96
+#: functions/customizer/customizer-project.php:150
+#: functions/customizer/customizer-project.php:208
+#: functions/customizer-repeater/class/customizer-repeater-control.php:558
+#: functions/customizer-repeater/class/customizer-repeater-control.php:604
+msgid "Image"
+msgstr "图像"
+
+#: functions/customizer/customizer-project.php:69
+msgid "Portfolio one"
+msgstr "文件夹一"
+
+#: functions/customizer/customizer-homecallout.php:70
+msgid "Button Link"
+msgstr "按钮链接"
+
+#: functions/customizer/customizer-homecallout.php:56
+#: functions/customizer-repeater/class/customizer-repeater-control.php:279
+#: functions/customizer-repeater/class/customizer-repeater-control.php:427
+msgid "Button Text"
+msgstr "按钮文字"
+
+#: functions/customizer/customizer-blog.php:34
+#: functions/customizer/customizer-homecallout.php:42
+#: functions/customizer/customizer-project.php:61
+#: functions/customizer/customizer-project.php:114
+#: functions/customizer/customizer-project.php:226
+#: functions/customizer/customizer-service.php:60
+#: functions/customizer/customizer_banner.php:53
+#: functions/customizer/customizer_banner.php:99
+#: functions/customizer/customizer_banner.php:145
+#: functions/customizer/customizer_banner.php:191
+#: functions/customizer/customizer_banner.php:237
+#: functions/customizer/customizer_banner.php:285
+#: functions/customizer-repeater/class/customizer-repeater-control.php:270
+#: functions/customizer-repeater/class/customizer-repeater-control.php:419
+#: functions/meta-box/post-meta.php:24
+#: functions/widget/elitepress_header_widget.php:91
+msgid "Description"
+msgstr "描述"
+
+#: functions/customizer/customizer-homecallout.php:84
+#: functions/customizer-repeater/class/customizer-repeater-control.php:523
+#: functions/widget/elitepress_social_icon.php:200
+#: functions/widget/elitepress_social_icon.php:206
+#: functions/widget/elitepress_social_icon.php:212
+#: functions/widget/elitepress_social_icon.php:218
+#: functions/widget/elitepress_social_icon.php:224
+#: functions/widget/elitepress_social_icon.php:230
+#: functions/widget/elitepress_social_icon.php:236
+#: functions/widget/elitepress_social_icon.php:242
+#: functions/widget/elitepress_social_icon.php:248
+msgid "Open link in new tab"
+msgstr "在新标签页打开链接"
+
+#: functions/customizer/customizer-home.php:117
+#: functions/customizer/customizer-home.php:129
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+#: content.php:21 fullwidth.php:14 page.php:14
+msgid "Page"
+msgstr "页"
+
+#: comments.php:78
+msgid "Log out"
+msgstr "登出"
+
+#: comments.php:66
+msgid "Name"
+msgstr "名称"
+
+#: comments.php:60
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "要发表评论，您必须先<a href=\"%s\">登录</a>。"
+
+#: archive.php:23
+msgid "Blog Archive"
+msgstr "博客归档"
+
+#: archive.php:17
+msgid "Daily Archive"
+msgstr "按日归档"
+
+#. Template Name of the plugin/theme
+msgid "Home Page"
+msgstr "首页"
+
+#: functions/customizer/customizer-service.php:25
+msgid "Enable Service section on front page"
+msgstr "启用在主页的服务部分"
+
+#: functions/customizer/customizer-pro.php:13
+#: functions/customizer/customizer-pro.php:20
+msgid "UPGRADE TO PRO"
+msgstr "升级到Pro版本"
+
+#: functions/customizer/customizer-project.php:235
+msgid "Add more portfolios"
+msgstr "添加更多文件夹"
+
+#: functions/customizer/customizer-project.php:33
+msgid "Enable project section on home Page"
+msgstr "启用在主页的项目部分"
+
+#: functions/customizer/customizer-pro.php:77
+msgid "The Pro Version gives you more opportunities to enhance your site and business. In order to create effective online presence one have to showcase their wide range of products, have to use contact us enquiry form, have to make effective about us page, have to introduce team members, etc etc . The pro version will give it all. Buy the pro version and give us a chance to serve you better."
+msgstr "Pro版里有更多强化您的站点以及业务的选择。为了创造有效的在线存在，您必须展示其广泛的产品，使用联系表单，创建有效的“关于我们”页面，并介绍团队成员等。Pro版能提供这些功能。立即购买Pro版，让我们有个机会为您服务。"
+
+#: functions/customizer/customizer-pro.php:73
+msgid "DOCUMENTATION"
+msgstr "文档"
+
+#: functions/customizer/customizer-pro.php:46
+msgid "ADD YOUR REVIEW"
+msgstr "添加您的评论"
+
+#: functions/customizer/customizer-home.php:161
+msgid "Enable search bar on header"
+msgstr "在页眉启用搜索栏"
+
+#: functions/widget/elitepress_social_icon.php:239
+msgid "Vimeo URL"
+msgstr "Vimeo URL"
+
+#: functions/widget/elitepress_social_icon.php:227
+msgid "Youtube URL"
+msgstr "Youtube URL"
+
+#: functions/widget/elitepress_social_icon.php:245
+msgid "Dribble URL"
+msgstr "Dribble URL"
+
+#: functions/widget/elitepress_social_icon.php:233
+msgid "Skype URL"
+msgstr "Skype URL"
+
+#: functions/widget/elitepress_social_icon.php:209
+msgid "Google-Plus URL"
+msgstr "Google+ URL"
+
+#: functions/widget/elitepress_social_icon.php:215
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: functions/widget/elitepress_social_icon.php:203
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: functions/widget/elitepress_social_icon.php:197
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: functions/customizer/customizer-home.php:69
+msgid "Show Logo text"
+msgstr "显示标志文字"
+
+#: functions/customizer/customizer-home.php:109
+msgid "Enter Logo Height"
+msgstr "指定标志高度"
+
+#: functions/customizer/customizer-home.php:90
+msgid "Enter Logo width"
+msgstr "指定标志宽度"
+
+#: functions/customizer/customizer-home.php:33
+msgid "Header logo settings"
+msgstr "页眉标志设置"
+
+#: functions/customizer/customizer-home.php:14
+#: functions/customizer/customizer-home.php:26
+msgid "Site favicon"
+msgstr "站点图标"
+
+#: functions/customizer/customizer-copyright.php:32
+msgid "Copyright text"
+msgstr "版权说明"
+
+#: functions/customizer/customizer-copyright.php:7
+#: functions/customizer/customizer-copyright.php:13
+msgid "Footer copyright settings"
+msgstr "页脚版权设置"
+
+#. Template Name of the plugin/theme
+msgid "Fullwidth"
+msgstr "全宽"
+
+#: functions/customizer/customizer_banner.php:257
+msgid "Search title"
+msgstr "搜索标题"
+
+#: functions/customizer/customizer_banner.php:209
+msgid "Tag title"
+msgstr "标签标题"
+
+#: functions/customizer/customizer_banner.php:163 theme_setup_data.php:140
+msgid "404 title"
+msgstr "404标题"
+
+#: functions/customizer/customizer_banner.php:117
+msgid "Author title"
+msgstr "作者标题"
+
+#: functions/customizer/customizer_banner.php:71
+msgid "Archive title"
+msgstr "归档标题"
+
+#: functions/customizer/customizer_banner.php:25
+msgid "Category title"
+msgstr "分类标题"
+
+#: tag.php:15
+msgid "Tag Archive"
+msgstr "标签归档"
+
+#: functions/customizer/customizer_banner.php:248 header-menu-section.php:35
+#: searchform.php:2
+msgid "Search"
+msgstr "搜索"
+
+#: search.php:34
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再试。"
+
+#: search.php:32
+msgid "Nothing Found"
+msgstr "未找到"
+
+#: content.php:20 fullwidth.php:13
+#: functions/customizer/customizer-homecallout.php:50 functions.php:125
+#: functions.php:142 index-slider.php:100 page.php:13 theme_setup_data.php:75
+msgid "Read More"
+msgstr "阅读更多"
+
+#: search.php:12
+msgid "Search results for %s"
+msgstr "%s的搜索结果"
+
+#: functions.php:76
+msgid "Footer Menu"
+msgstr "页脚菜单"
+
+#: functions.php:75
+msgid "Primary Menu"
+msgstr "主菜单"
+
+#: functions.php:59
+msgid "Page %s"
+msgstr "第%s页"
+
+#: functions/widget/custom-sidebar.php:51
+#: functions/widget/custom-sidebar.php:53
+msgid "Footer widget area"
+msgstr "页脚小工具区域"
+
+#: functions/widget/custom-sidebar.php:8 functions/widget/custom-sidebar.php:10
+msgid "Sidebar widget area"
+msgstr "边栏小工具区域"
+
+#: functions/customizer/customizer-slider.php:132
+msgid "Slideshow speed"
+msgstr "幻灯速度"
+
+#: functions/customizer/customizer-slider.php:113
+msgid "Animation speed"
+msgstr "动画速度"
+
+#: functions/customizer/customizer-slider.php:89
+msgid "Slide"
+msgstr "幻灯片"
+
+#: functions/customizer/customizer.php:152 index-service.php:146
+#: theme_setup_data.php:123
+msgid "Incredibly flexible"
+msgstr "难以置信的灵活性"
+
+#: functions/customizer/customizer.php:144 index-service.php:146
+#: theme_setup_data.php:119
+msgid "Exclusive support"
+msgstr "独家支持"
+
+#: functions/customizer/customizer.php:137 index-service.php:146
+#: theme_setup_data.php:115
+msgid "Twitter Bootstrap 3.2.0"
+msgstr "Twitter Bootstrap 3.2.0"
+
+#: functions/customizer/customizer.php:130 index-service.php:146
+#: theme_setup_data.php:111
+msgid "Responsive design"
+msgstr "响应式网页设计"
+
+#: functions/customizer/customizer-service.php:34 theme_setup_data.php:107
+msgid "Our services"
+msgstr "我们的服务"
+
+#: functions/elitepress-info/sections/free_pro.php:53
+msgid "Portfolio"
+msgstr "作品集"
+
+#: functions/customizer/customizer-homecallout.php:21 theme_setup_data.php:73
+msgid "Want to say hey or find out more?"
+msgstr "想问个好或寻找更多详情吗？"
+
+#: functions/customizer/customizer-copyright.php:50
+msgid "Enable Footer Menu Bar"
+msgstr "启用脚注菜单栏"
+
+#: functions/elitepress-info/sections/free_pro.php:13
+msgid "Features"
+msgstr "特色"
+
+#: functions/elitepress-info/sections/free_pro.php:42
+#: functions/elitepress-info/sections/github.php:88
+msgid "Multiple Color Schemes"
+msgstr "多色彩方案"
+
+#: functions/elitepress-info/sections/github.php:116
+msgid "Translation Ready"
+msgstr "支持多国语言翻译"
+
+#: functions/customizer/customizer-project.php:253
+msgid "Upgrade to Pro"
+msgstr "升级成Pro版"
+
+#: functions/customizer/customizer_banner.php:11
+msgid "Banner settings"
+msgstr "横幅设置"
+
+#: functions/customizer/customizer-service.php:6
+msgid "Service settings"
+msgstr "服务设置"
+
+#: functions/customizer/customizer-slider.php:47
+#: functions/customizer/customizer-slider.php:53
+msgid "Slider settings"
+msgstr "幻灯设置"
+
+#: functions/customizer/customizer-home.php:8
+msgid "Header settings"
+msgstr "页眉设置"
+
+#: functions/template-tag.php:17
+msgid "In"
+msgstr "在"
+
+#: functions/template-tag.php:12
+msgid "By"
+msgstr "作者"
+
+#: comments.php:83
+msgid "Leave a Reply"
+msgstr "发表评论"
+
+#: comments.php:80
+msgid "Send Message"
+msgstr "发送信息"
+
+#: comments.php:77
+msgid "Logged in as"
+msgstr "以以下身份登陆"
+
+#: comments.php:76
+msgid "Message"
+msgstr "消息"
+
+#: comments.php:67
+msgid "Email"
+msgstr "电子邮件"
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr "较新评论 &rarr;"
+
+#: comments.php:49
+msgid "&larr; Older Comments"
+msgstr "&larr; 早期评论"
+
+#: comments.php:48
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: comments.php:41
+msgid "comments so far"
+msgstr "条评论"
+
+#: comments.php:41
+msgid "1 comment so far"
+msgstr "目前为止有一条评论"
+
+#: comments.php:41
+msgid "No comments so far"
+msgstr "目前为止没有评论"
+
+#: comments.php:29
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: comments.php:23
+msgid "Edit"
+msgstr "编辑"
+
+#: comments.php:14
+msgid "Reply"
+msgstr "回复"
+
+#: comments.php:2
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "这篇文章受密码保护。输入密码以查看评论。"
+
+#: category.php:16
+msgid "Category  Archive"
+msgstr "分类归档"
+
+#: banner-header.php:46 functions/customizer/customizer-blog.php:21
+#: functions/customizer/customizer-homecallout.php:27
+#: functions/customizer/customizer-project.php:47
+#: functions/customizer/customizer-project.php:83
+#: functions/customizer/customizer-project.php:138
+#: functions/customizer/customizer-project.php:168
+#: functions/customizer/customizer-project.php:193
+#: functions/customizer/customizer-service.php:43
+#: functions/customizer/customizer_banner.php:34
+#: functions/customizer/customizer_banner.php:80
+#: functions/customizer/customizer_banner.php:126
+#: functions/customizer/customizer_banner.php:172
+#: functions/customizer/customizer_banner.php:218
+#: functions/customizer/customizer_banner.php:266
+#: functions/customizer-repeater/class/customizer-repeater-control.php:256
+#: functions/customizer-repeater/class/customizer-repeater-control.php:405
+#: functions/widget/elitepress_header_widget.php:85 theme_setup_data.php:131
+#: theme_setup_data.php:134 theme_setup_data.php:137 theme_setup_data.php:143
+#: theme_setup_data.php:146
+msgid "Title"
+msgstr "标题"
+
+#: archive.php:21
+msgid "Yearly Archive"
+msgstr "年度归档"
+
+#: archive.php:19
+msgid "Monthly Archive"
+msgstr "月度归档"
+
+#: 404.php:15
+msgid "Go Back"
+msgstr "返回"
+
+#: 404.php:14
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "非常抱歉，您正在找的页面不存在。"
+
+#: 404.php:13
+msgid "Oops! Page not found"
+msgstr "出错了！未找到页面"
+
+#: functions/customizer/customizer_banner.php:154
+msgid "404"
+msgstr "404"
+
+#. Author URI of the plugin/theme
+msgid "https://webriti.com/"
+msgstr "https://webriti.com/"
+
+#. #-#-#-#-#  elitepress.pot (ElitePress 1.7.3)  #-#-#-#-#
+#. Author of the plugin/theme
+#: functions/customizer/customizer-copyright.php:23 theme_setup_data.php:81
+msgid "Webriti"
+msgstr "Webriti"
+
+#. Theme URI of the plugin/theme
+msgid "https://webriti.com/elitepress-wordpress-theme-lite/"
+msgstr "https://webriti.com/elitepress-wordpress-theme-lite/"

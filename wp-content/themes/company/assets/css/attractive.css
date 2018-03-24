@@ -1,0 +1,96 @@
+.border-in-animation {
+	position:relative;
+}
+
+.border-in-animation:before {
+	content:'';
+	display:block;
+	position:absolute;
+	width:0px;
+	height:1px;
+	border-top:0px solid #fff;
+	border-right:0px solid #fff;
+	transition:width 0.2s 0.2s ease,height 0.2s ease,border-width 0s 0.4s ease;
+	top:0px;
+	left:0px;
+}
+
+.border-in-animation:after {
+	content:'';
+	display:block;
+	position:absolute;
+	width:0px;
+	height:2px;
+	border-left:0px solid #fff;
+	border-bottom:0px solid #fff;
+	transition:width 0.2s 0.2s ease,height 0.2s ease,border-width 0s 0.4s ease;
+	bottom:0px;
+	right:1px;
+}
+
+.border-in-animation:hover:before {
+	border-width:2px;
+	width:calc(100% - 2px);
+	height:calc(100% - 2px);
+	transition:width 0.2s ease,height 0.2s 0.2s ease;
+}
+
+.border-in-animation:hover:after {
+	border-width:2px;
+	width:calc(100% - 4px);
+	height:calc(100% - 4px);
+	transition:width 0.2s ease,height 0.2s 0.2s ease;
+}
+
+
+
+
+
+/* ************************************************* */
+
+
+
+
+.border-out-animation {
+	position:relative;
+}
+
+.border-out-animation:before {
+	content:'';
+	display:block;
+	position:absolute;
+	width:calc(100% - 4px);
+	height:calc(100% - 4px);
+	border-top:2px solid #fff;
+	border-right:2px solid #fff;
+	transition:width 0.2s ease,height 0.2s 0.2s ease;
+	top:0px;
+	left:1px;
+}
+
+.border-out-animation:after {
+	content:'';
+	display:block;
+	position:absolute;
+	width:calc(100% - 4px);
+	height:calc(100% - 4px);
+	border-left:2px solid #fff;
+	border-bottom:2px solid #fff;
+	transition:width 0.2s ease,height 0.2s 0.2s ease;
+	bottom:0px;
+	right:1px;
+}
+
+.border-out-animation:hover:before {
+	border-width:0px;
+	width:0px;
+	height:0px;
+	transition:width 0.2s 0.2s ease,height 0.2s ease,border-width 0s 0.4s ease;
+}
+
+.border-out-animation:hover:after {
+	border-width:0px;
+	width:0px;
+	height:0px;
+	transition:width 0.2s 0.2s ease,height 0.2s ease,border-width 0s 0.4s ease;
+}
