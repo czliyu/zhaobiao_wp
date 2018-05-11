@@ -1,0 +1,36 @@
+.blank10 { margin-top: 10px; }
+
+p.title { 
+	padding-left: 20px;
+	font-size:18px;
+    border-bottom:2px solid #2559B6;
+    overflow: hidden;
+    width:100%;
+}
+
+p.title span{
+	display:block;
+	float:left;
+}
+
+span.title-block {
+	color: white;
+	width: 150px;
+	text-align: center;
+	display:block;
+	background-color: #2559B6;
+}
+
+span.more{
+	color: #888888;
+	font-size:14px;
+	height: 24px;
+	line-height: 24px;
+	position: relative;
+	left:55rem;
+}
+
+.nav li:first-child{
+	display: block;
+	width: 200px;
+}

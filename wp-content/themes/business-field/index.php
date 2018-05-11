@@ -17,32 +17,131 @@ get_header(); ?>
 <?php if ( true === apply_filters( 'business_field_filter_home_page_content', true ) ) : ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<div class="row">
 
-		<?php if ( have_posts() ) : ?>
+			<p class="title">
+				<span class="title-block">公告信息</span>
+				<span class="more"><a href="?cat=2">more</a></span>
+			</p>
+			<!--公告信息-->
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+			<ul id="main" class="list-group" role="main">
+				<li class="list-group-item">
+				<ul class="nav nav-pills">
+				  <li>项目编号</li>
+				  <li>项目名称</li>
+				  
+				</ul>
+				</li>
+			
+			<?php query_posts(['cat' => 2, 'limit' => 10]) ?>
+			<?php if ( have_posts() ) : ?>
 
-				<?php get_template_part( 'template-parts/content' ); ?>
+				<?php /* Start the Loop */ ?>
+				<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php endwhile; ?>
+					<?php get_template_part( 'template-parts/content' ); ?>
 
-			<?php
-			/**
-			 * Hook - business_field_action_posts_navigation.
-			 *
-			 * @hooked: business_field_custom_posts_navigation - 10
-			 */
-			do_action( 'business_field_action_posts_navigation' ); ?>
+				<?php endwhile; ?>
 
-		<?php else : ?>
+				<?php
+				/**
+				 * Hook - business_field_action_posts_navigation.
+				 *
+				 * @hooked: business_field_custom_posts_navigation - 10
+				 */
+				do_action( 'business_field_action_posts_navigation' ); ?>
 
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
+			<?php else : ?>
 
-		<?php endif; ?>
+				<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
-		</main><!-- #main -->
+			<?php endif; ?>
+			<?php wp_reset_query(); ?>
+			
+			</ul><!-- #main -->
+		</div>
+		<div class="blank10"></div>
+		<!-- 信息公告 -->
+		<div class="row">
+			<p class="title"><span class="title-block">补充公告</span><span class="more"><a href="?cat=10">more</a></span></p>
+			<!--公告信息-->
+			<ul class="list-group">
+				<li class="list-group-item">
+				<ul class="nav nav-pills">
+				  <li>项目编号</li>
+				  <li>项目名称</li>
+				  
+				</ul>
+				</li>
+			
+			<?php query_posts('cat=10') ?>
+			<?php if ( have_posts() ) : ?>
+
+				<?php /* Start the Loop */ ?>
+				<?php while ( have_posts() ) : the_post(); ?>
+
+					<?php get_template_part( 'template-parts/content' ); ?>
+
+				<?php endwhile; ?>
+
+				<?php
+				/**
+				 * Hook - business_field_action_posts_navigation.
+				 *
+				 * @hooked: business_field_custom_posts_navigation - 10
+				 */
+				do_action( 'business_field_action_posts_navigation' ); ?>
+
+			<?php else : ?>
+
+				<?php get_template_part( 'template-parts/content', 'none' ); ?>
+
+			<?php endif; ?>
+			<?php wp_reset_query(); ?>
+			
+			</ul><!-- #main -->
+		</div>
+		<div class="blank10"></div>
+		<div class="row">
+			<p class="title"><span class="title-block">中标公告</span><span class="more"><a href="?cat=11">more</a></span></p>
+			<!--公告信息-->
+			<ul class="list-group">
+				<li class="list-group-item">
+				<ul class="nav nav-pills">
+				  <li>项目编号</li>
+				  <li>项目名称</li>
+				  
+				</ul>
+				</li>
+			<?php query_posts('cat=11') ?>
+			<?php if ( have_posts() ) : ?>
+
+				<?php /* Start the Loop */ ?>
+				<?php while ( have_posts() ) : the_post(); ?>
+
+					<?php get_template_part( 'template-parts/content' ); ?>
+
+				<?php endwhile; ?>
+
+				<?php
+				/**
+				 * Hook - business_field_action_posts_navigation.
+				 *
+				 * @hooked: business_field_custom_posts_navigation - 10
+				 */
+				do_action( 'business_field_action_posts_navigation' ); ?>
+
+			<?php else : ?>
+
+				<?php get_template_part( 'template-parts/content', 'none' ); ?>
+
+			<?php endif; ?>
+			<?php wp_reset_query(); ?>
+			
+			</ul><!-- #main -->
+		</div>
+		
 	</div><!-- #primary -->
 
 <?php

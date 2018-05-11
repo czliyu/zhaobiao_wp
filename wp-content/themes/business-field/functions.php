@@ -152,6 +152,7 @@ function business_field_scripts() {
 	wp_enqueue_style( 'jquery-sidr', get_template_directory_uri() .'/third-party/sidr/css/jquery.sidr.dark' . $min . '.css', '', '2.2.1' );
 
 	wp_enqueue_style( 'business-field-style', get_stylesheet_uri(), array(), '1.0.2' );
+	// wp_enqueue_style( 'myown-style', get_stylesheet_uri().'/css/mycss.css',);
 
 	wp_enqueue_script( 'business-field-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix' . $min . '.js', array(), '20130115', true );
 
@@ -190,6 +191,85 @@ function business_field_admin_scripts( $hook ) {
 
 }
 add_action( 'admin_enqueue_scripts', 'business_field_admin_scripts' );
+
+
+
+/****** kuozha *****/
+/* Define the custom box，适用WP 3.0以后的版本 */
+add_action( 'add_meta_boxes', 'ludou_add_custom_box' );
+
+// 如果是WP 3.0之前的版本，使用以下一行代码
+// add_action( 'admin_init', 'ludou_add_custom_box', 1 );
+
+/* Do something with the data entered */
+add_action( 'save_post', 'ludou_save_postdata' );
+
+/* Adds a box to the main column on the Post and Page edit screens */
+function ludou_add_custom_box() {
+  add_meta_box(
+    'ludou_sectionid',
+    '文章扩展', // 可自行修改标题文字
+    'ludou_inner_custom_box',
+    'post'
+  );
+}
+
+/* Prints the box content */
+function ludou_inner_custom_box( $post ) {
+  global $wpdb;
+   
+  // Use nonce for verification
+  wp_nonce_field( plugin_basename( __FILE__ ), 'ludou_noncename' );
+   
+  // 获取固定字段keywords和description的值，用于显示之前保存的值
+  // 此处wp_posts新添加的字段为keywords和description，多个用半角逗号隔开
+  $date = $wpdb->get_row( $wpdb->prepare( "SELECT projectno FROM $wpdb->posts WHERE ID = %d", $post->ID) );
+
+
+  // description 字段输入框的HTML代码，即复制以上两行代码，并将keywords该成description
+  echo '<label for="projectno_new_field">项目编号</label> ';
+  echo '<input type="text" id="projectno_new_field" name="projectno_new_field" value="'.$date->projectno.'" size="18" />';
+  // 多个字段依此类推
+}
+
+/* 文章提交更新后，保存固定字段的值 */
+function ludou_save_postdata( $post_id ) {
+  // verify if this is an auto save routine.
+  // If it is our form has not been submitted, so we dont want to do anything
+  if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE )
+      return;
+
+  // verify this came from the our screen and with proper authorization,
+  // because save_post can be triggered at other times
+  if ( !wp_verify_nonce( $_POST['ludou_noncename'], plugin_basename( __FILE__ ) ) )
+      return;
+ 
+  // 权限验证
+  if ( 'post' == $_POST['post_type'] ) {
+    if ( !current_user_can( 'edit_post', $post_id ) )
+        return;
+  }
+
+  // 获取编写文章时填写的固定字段的值，多个字段依此类推
+  $project = $_POST['projectno_new_field'];
+   
+  // 更新数据库，此处wp_posts新添加的字段为keywords和description，多个根据你的情况修改
+  global $wpdb;
+  $wpdb->update( "$wpdb->posts",
+          // 以下一行代码，多个字段的话参照下面的写法，单引号中是字段名，右边是变量值。半角逗号隔开
+          array( 'projectno' => $project ),
+          array( 'ID' => $post_id ),
+          // 添加了多少个新字段就写多少个%s，半角逗号隔开
+          array( '%s' ),
+          array( '%d' )  
+  );
+}
+function add_stylesheet_to_head() {
+    wp_enqueue_style('myown-css', get_template_directory_uri() . '/css/mycss.css', array(), '1.0.0');
+}
+add_action( 'wp_head', 'add_stylesheet_to_head' );
+
+
 
 /**
  * Load init.

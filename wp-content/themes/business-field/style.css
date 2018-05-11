@@ -486,8 +486,9 @@ dd {
 }
 
 img {
-    height: auto; /* Make sure images are scaled correctly. */
+    height: 80px; /* Make sure images are scaled correctly. */
     max-width: 100%; /* Adhere to container width. */
+
 }
 
 table {
@@ -1591,6 +1592,7 @@ a.custom-button.doante-now i {
 .site-title a {
     color: #232323;
     font-weight: bold;
+    letter-spacing: 23px;
 }
 
 .right-head {
