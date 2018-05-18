@@ -459,9 +459,12 @@ if ( ! function_exists( 'business_field_add_title_in_custom_header' ) ) :
 		?>
 		<div class="header-content">
 			<div class="header-content-inner">
-				<?php echo '<span class="page-title">'; ?>
-				<?php echo esc_html('公正 公开 公平 诚信 廉洁 高效'); ?>
-				<?php echo '</span>'; ?>
+				<?php echo '<p class="page-title" style="margin-right: 4em; font-family:STFangsong; ">'; ?>
+				<?php echo esc_html('公正 公开 公平'); ?>
+				<?php echo '</p>'; ?>
+				<?php echo '<p class="page-title" style="margin-left: 11em; font-family:STFangsong; ">'; ?>
+				<?php echo esc_html('诚信 廉洁 高效'); ?>
+				<?php echo '</p>'; ?>
 				<?php //if ( ! empty( $custom_page_title ) ) : ?>
 					<?php //echo '<' . $tag . ' class="page-title">'; ?>
 					<?php //echo esc_html( $custom_page_title ); ?>

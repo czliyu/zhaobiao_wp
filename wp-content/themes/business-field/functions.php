@@ -270,6 +270,57 @@ function add_stylesheet_to_head() {
 add_action( 'wp_head', 'add_stylesheet_to_head' );
 
 
+function example_remove_dashboard_widgets() {
+    // Globalize the metaboxes array, this holds all the widgets for wp-admin
+    global $wp_meta_boxes;
+ 
+    // 以下这一行代码将删除 "快速发布" 模块
+    unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']);
+ 
+    // 以下这一行代码将删除 "引入链接" 模块
+    unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);
+ 
+    // 以下这一行代码将删除 "插件" 模块
+    unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);
+ 
+    // 以下这一行代码将删除 "近期评论" 模块
+    unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_comments']);
+ 
+    // 以下这一行代码将删除 "近期草稿" 模块
+    unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_recent_drafts']);
+ 
+    // 以下这一行代码将删除 "WordPress 开发日志" 模块
+    unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
+ 
+    // 以下这一行代码将删除 "其它 WordPress 新闻" 模块
+    unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
+ 
+    // 以下这一行代码将删除 "概况" 模块
+    unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now']);
+    
+}
+add_action('wp_dashboard_setup', 'example_remove_dashboard_widgets' );
+
+/**
+ * 只允许登录用户查看文章
+ */
+add_shortcode('members_only', 'members_only_shortcode');
+
+function members_only_shortcode($atts, $content=null){
+	if (is_user_logged_in() && !empty($content) && !is_feed()){
+		return $content;
+	}
+
+	return '查看文章,请先注册登录';
+}
+
+//隐藏admin Bar
+function hide_admin_bar($flag) {
+	return false;
+}
+add_filter('show_admin_bar','hide_admin_bar');
+
+
 
 /**
  * Load init.

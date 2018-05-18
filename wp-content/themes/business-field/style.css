@@ -2543,6 +2543,8 @@ a.custom-button.doante-now i {
     position: relative;
     z-index: 99;
     background-color: #005bbc;
+    width: 96%;
+    margin: 0 auto;
 }
 
 .page-title {
